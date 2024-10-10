@@ -1,0 +1,227 @@
+body{
+	
+	margin:0;
+	
+}
+main{
+	
+	
+	display:flex;
+	
+	flex-direction:column;
+	
+	
+}
+
+
+
+header{
+	
+	color:black;
+	
+	background-image:linear-gradient(black, #5a1209);
+	display:flex;
+	width:100%;
+	height:auto;
+	
+}
+
+nav{
+	width:100%;
+	height:auto;
+	background-image:linear-gradient(black, #5a1209);
+    align-items:center;
+	justify-content: space-around;
+	display:flex;
+	
+}
+
+
+
+nav a:link, nav a:visited{
+	color:#e4bb83;
+	font-size: 15px;
+	font-weight:bold;
+	text-decoration:none;
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	align-items: center;
+	justify-content:center;
+	transition:all 1s;
+
+}	
+	
+	nav a:hover{
+		color:grey;
+	}
+
+
+section{
+	
+    width:70%;
+	height:auto;
+	border-bottom:10%;
+	display:flex;
+	color:black
+	
+}
+aside{
+	
+	
+    width:90%;
+	height:auto;
+	border-bottom:10%;
+	display:flex;
+    align-items: center;
+	padding:2%;
+
+	
+	
+}
+
+
+h1{
+	height: auto;
+	text-align:center;
+	color:#ab7f28;
+	font-size:30px;
+}
+
+p{
+	line-height:180%;
+	border-radius:7px;
+	font-size:15px;
+	color:grey;
+	
+	
+	
+}
+
+
+ul{
+	
+	color:grey;
+	line-height:190%;
+	
+}
+
+
+
+footer{
+	width:100%;
+	height:auto;
+	background-image:linear-gradient(black, #5a1209);
+	display:flex;
+	align-items:center;
+	color:white;
+    font-size:10px;
+	
+	
+}
+
+
+
+.logo{
+	display:flex;
+	padding:1%;
+}
+
+.iconos{
+	
+ 	align-items: center;
+	width:60%;
+	height:auto;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+
+.texxto{
+	
+color:white;
+font-size:15px;
+display:flex;
+padding:1%;
+margin-top:10px;
+
+}
+
+.foto{
+	
+	height:auto;
+	text-align: justify;
+    border-radius:10%;
+	margin-bottom:10px;
+    align-items:center;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	padding:1%;
+	
+	
+	
+}
+.habitaciones{
+	
+	
+    width:90%;
+	height:auto;
+	display:flex;
+    align-items: center;
+	padding:1%;
+	
+}
+img{
+	
+	
+	border-radius:10px;
+	
+	
+}
+
+
+
+
+@media screen and (max-width:800px)
+
+
+{
+ header, nav, main, footer,.contacto,.iconos, .habitaciones{
+	 
+	
+	 flex-direction: column;
+	 
+	 
+	 
+	 
+	 
+ }
+ p{
+	 font-size:15px;
+ }
+ .logo{
+	 height:70%;
+	 width:100%;
+	 justify-content: center;
+	 
+	 
+	 
+ }
+ nav a:link{
+	 width: 70%;
+ }
+ 
+ section, aside{
+	 width:100%;
+	 margin-top:20px;
+	 margin-bottom:50px;
+	 
+	 
+}
+
+	

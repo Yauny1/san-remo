@@ -1,0 +1,227 @@
+body{
+	margin:0;
+	
+}
+
+
+
+header{
+	
+	background-image:linear-gradient(black, #5a1209);
+	display:flex;
+	width:100%;
+	height:auto;
+	
+}
+
+
+nav{
+	width:100%;
+	height:auto;
+	background-image:linear-gradient(black, #5a1209);
+    align-items:center;
+	justify-content: space-around;
+	display:flex;
+	
+}
+
+
+
+nav a:link, nav a:visited{
+	color:#e4bb83;
+	font-size: 15px;
+	font-weight:bold;
+	text-decoration:none;
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	align-items: center;
+	justify-content:center;
+	transition:all 1s;
+
+}	
+	
+	nav a:hover{
+		color:grey;
+	}
+
+
+h2{
+  text-align:center;
+  color:#81520a;
+  font-size:25px;
+}
+h1{
+	
+	text-align:center;
+	color:#7f0037;
+	font-size:35px;
+}
+p{
+	text-align:center;
+	color:#81520a;
+	font-size:25px;
+	
+}
+.texto{
+	color:grey;
+	
+}
+.texxto{
+	
+color:white;
+font-size:15px;
+display:flex;
+padding:1%;
+margin-top:10px;
+
+}
+
+
+.abajo{
+    
+    width:100%;
+    height:auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	display:flex;
+	padding:1%;
+	
+}
+
+main {
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+
+.tarjeta{
+	
+    width:350px;
+	height:auto;
+	line-height:130%;
+	border-radius:7px;
+	font-size:20px;
+	text-align: justify;
+	box-shadow:1px 1px 12px grey;
+	margin-bottom:20px;
+    align-items:center;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	min-height:350px;
+	padding: 1%;
+	
+	
+	
+}
+	
+
+footer{
+	
+	
+	width:100%;
+	height:auto;
+	background-image:linear-gradient(black, #5a1209);
+	display:flex;
+	align-items:center;
+	color:white;
+    font-size:10px;
+
+	
+	
+	
+}
+
+
+.fotos{
+	
+	display:flex;
+	align-items:center;
+	
+}
+
+.fotoo{
+	
+	align-items:center;
+
+	height:auto;
+	width:100%;
+	
+	
+}
+.fotoo img{
+	width:100%;
+	height:auto;
+}
+
+.logo{
+	display:flex;
+	padding:1%;
+}
+
+.iconos{
+	
+ 	align-items: center;
+	width:60%;
+	height:auto;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+/*galeria*/
+
+.galeria{
+	height:auto;
+	width:100%;
+	padding:2%;
+	display:flex;
+	
+	
+}
+
+
+	
+	
+	
+/*celular*/
+
+
+@media screen and (max-width:800px)
+
+
+{
+ header, nav, main, footer,.contacto,.iconos{
+	 
+	
+	 flex-direction: column;
+	 
+ }
+ p{
+	 font-size:15px;
+ }
+ .logo{
+	 height:70%;
+	 width:100%;
+	 justify-content: center;
+	 
+	 
+	 
+ }
+ nav a:link{
+	 width: 70%;
+ }
+ 
+ section, aside{
+	 width:100%;
+	 margin-top:20px;
+	 margin-bottom:50px;
+	 
+	 
+}
+
+	
